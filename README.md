@@ -890,28 +890,7 @@ Open **[http://localhost:5173](http://localhost:5173)** in your browser and walk
 
 ---
 
-## 🚢 Deployment
 
-### Deploy Backend — [Render](https://render.com) (Recommended, Free Tier)
-
-1. Push your code to GitHub.
-2. Go to [render.com](https://render.com) → **New Web Service**.
-3. Connect your GitHub repo → select the `backend/` root directory.
-4. Set:
-   - **Build Command:** `npm install && npm run build`
-   - **Start Command:** `npm start`
-5. Add all environment variables from `backend/.env`.
-6. Deploy — your API URL will be `https://quickdine-api.onrender.com`.
-
-### Deploy Frontend — [Vercel](https://vercel.com) (Recommended, Free Tier)
-
-1. Go to [vercel.com](https://vercel.com) → **Import Project**.
-2. Select your GitHub repo → set **Root Directory** to `frontend/`.
-3. Vercel auto-detects Vite — no extra config needed.
-4. Update `API_BASE_URL` in `frontend/src/context/AppContext.tsx` to your Render backend URL.
-5. Deploy — your app will be live at `https://quickdine.vercel.app`.
-
----
 
 ## 👨‍💻 Author
 
@@ -929,8 +908,5 @@ This project is open source and available under the [MIT License](./frontend/LIC
 
 <div align="center">
 
-**⭐ If you found this project helpful, please give it a star!**
-
-Made with ❤️ using the MERN Stack + TypeScript
 
 </div>
